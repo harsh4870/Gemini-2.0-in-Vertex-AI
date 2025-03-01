@@ -65,8 +65,8 @@
 2.  **Add GCP Service Account Key (Optional):** If you're using a GCP service account, add the following line, replacing `/path/to/your/service-account-key.json` with the actual path to your key file:
 
     ```bash
-    export CRED_PATH="/path/to/your/service-account-key.json"
-    export PROJECT_ID="auto-x-123"
+    export CRED_PATH="./creds.json"
+    export PROJECT_ID="[add-your-project-id]"
     ```
 
 ## Running the Python Code
